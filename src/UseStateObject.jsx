@@ -24,9 +24,7 @@ const UseStateObject = () => {
       <button onClick={handleSalaryINc} className="btn btn-success me-4">
         SALARY INCREASE
       </button>
-      <button onClick={handleToggle} className="btn btn-warning me-4">
-        CLEAR
-      </button>
+      <button className="btn btn-warning me-4">CLEAR</button>
       <button onClick={handleSalaryDec} className=" btn btn-danger">
         SALARY DECREASE
       </button>
