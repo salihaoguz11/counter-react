@@ -2,13 +2,13 @@ import { useState } from "react";
 
 const UseStateCounter = () => {
   const [count, setCount] = useState(0);
-  const [msg, setMsg] = useState("Odd,Even or Tens");
+  const [msg, setMsg] = useState("Odd,Even or Tenths");
   const increment = () => {
     if (count < 100) {
       setCount(count + 1);
 
       if ((count + 1) % 10 === 0) {
-        setMsg("Tens");
+        setMsg("Tenths");
       } else if ((count + 1) % 2 === 0) {
         setMsg("Even Number");
       } else {
